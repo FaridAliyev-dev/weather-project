@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    background-image: url('https://content.r9cdn.net/rimg/dimg/4d/5a/a25ec4ac-city-33415-1732e873f4b.jpg?crop=true&width=1020&height=498');
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 120%;
+}
+
+.card {
+    background: #242323e8;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#search-box {
+    border-radius: 30px;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background: #7c7c7c6b;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 46px;
+    width: 46px;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 30px;
+    background-color: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 120%;
+    width: calc(100% - 100px);
+
+}
+
+
